@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
-    
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules ../node_modules/jest/bin/jest.js --runInBand"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
